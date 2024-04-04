@@ -6,7 +6,6 @@
 }
 
 .header {
-    background-color: red;
     margin-left: 15%;
     margin-right: 15%;
     height: 100px;
@@ -18,7 +17,6 @@
     width: 20%;
     height: 100%;
     align-items: center;
-    background-color: pink;
 }
 .logo {
 
@@ -28,7 +26,6 @@
     background-repeat: no-repeat;
     height: 100%;
     width: 80%;
-    background-color: yellow;
 }
 
 /* Social & Contact containt */
@@ -36,14 +33,12 @@
 .remain {
     width: 80%;
     height: 100%;
-    background-color: greenyellow;
     display: flex;
 }
 
 .social {
     width: 20%;
     height: 100%;
-    background-color: rgb(127, 229, 255);
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -76,7 +71,8 @@
 
 /* for contact info */
 .contact {
-    width: 62%;
+    margin-left: 20px;
+    width: 55%;
     height: 100%;
     background-color: white;
     display: flex;
@@ -96,7 +92,7 @@
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    height: 40%;
+    height: 30%;
     width: 100%;
 }
 .ring {
@@ -107,4 +103,45 @@
 }
 .location {
     background-image: url("Image/Navbar/Location.png");
+}
+
+.index_hr {
+    margin-left: 20px;
+    height: 80%;
+    align-items: center;
+    border-color: #fcfbf946;
+    border-width: 2px;
+}
+
+.ringwriting p {
+    font-size: 12px;
+    font-family: "Samibolt";
+    color: #878680; 
+}
+.ringwriting label {
+    font-size: 14px;
+    font-weight: 600;
+    color: #1F1E17;
+}
+
+.messagewriting p {
+    font-size: 12px;
+    font-family: "Samibolt";
+    color: #878680; 
+}
+.messagewriting label {
+    font-size: 14px;
+    font-weight: 600;
+    color: #1F1E17;
+}
+
+.locationwriting p {
+    font-size: 12px;
+    font-family: "Samibolt";
+    color: #878680; 
+}
+.locationwriting label {
+    font-size: 14px;
+    font-weight: 600;
+    color: #1F1E17;
 }
