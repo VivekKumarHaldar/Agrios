@@ -6,8 +6,8 @@
 }
 
 .header {
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 20%;
+    margin-right: 10%;
     height: 100px;
     display: flex;
 }
@@ -145,3 +145,173 @@
     font-weight: 600;
     color: #1F1E17;
 }
+
+
+
+
+/* Menue css */
+
+.menu{
+    background-color: rgba(250, 248, 234, 0.979);
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.menu1{
+    display: flex;
+    width:65%;
+    /* margin-right: 150px; */
+    height: 60px;
+    background-color: white;
+}
+
+.menu1-element {
+
+width: 90%;
+}
+
+.menu1-element ul{
+    margin-top: 18px;
+    
+}
+.menu1-element ul li {
+    display: inline-block;
+    margin-right: 90px;
+
+}
+
+.menu1-element ul li a{ 
+ text-decoration: none;
+ color: #878680;
+ font-weight:550;
+ font-size: 14px;
+}
+
+.menu1-element ul li a:hover {
+    color: #000; /* Black text color on hover */
+    /*font-weight: bold;  Bolder font on hover */
+  }
+
+
+/* for image in menue */
+
+
+.menu-image {
+    height: 100%;
+    width: 10%;
+    display: flex;
+    align-items: center;
+}
+.search {
+    background-image: url(Image/MenueBar/search.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 40%;
+    width: 100%;
+}
+.shoping {
+    background-image: url(Image/MenueBar/shoping.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 40%;
+    width: 100%;
+}
+
+.index_hrs {
+    margin-right: 20px;
+    height: 50%;
+    align-items: center;
+    border-color: #fcfbf946;
+    border-width: 2px;
+}
+
+
+
+/*element work on Home 1*/
+
+.element {
+    background-image: url(Image/Element/elements.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 810px;
+    width: 100%;
+    margin-top: -14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.element-text {
+   
+    /* background-color: rgba(255, 0, 0, 0.2); */
+    width: 65%;
+    height: 96%;
+    color: white;
+    margin-top: 430px;
+    margin-left: 80px;
+}
+.element-text1{
+    text-transform: uppercase;
+    font-size: .9rem;
+    opacity: 0.8;
+}
+.element2 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 40%;
+}
+.element-text2 {
+    font-family: cursive;
+    font-size: 5rem;
+}
+.elementtext2-img {
+    background-image: url(Image/Element/leaf-01.webp.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 20%;
+    width: 100%;
+    position: absolute;
+    top :35%;
+    right :10.5%
+
+   
+}
+
+.element-text3 {
+    font-size: .8rem;
+    opacity: 0.6;
+    margin-top: -85px;
+}
+
+/* button style */
+
+.element-button {
+    background-color: #4BAF47;
+    color: white;
+    width: 170px; 
+    height: 50px; 
+    padding: 10px 20px;
+    font-size: 12px;
+    border: none;
+    border-radius: 8px;
+    margin-top: 50px;
+}
+.element-buttonimg {
+    background-image: url(Image/Element/elementsLeaf.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 7%;
+    
+    margin-top: -50px;
+    margin-left: -700px;
+}
+
+
